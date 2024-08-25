@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Graphik-Regular';
+  src: url('/fonts/Graphik-Regular-Trial.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Graphik-Medium';
+  src: url('/fonts/Graphik-Medium-Trial.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Graphik-Semibold';
+  src: url('/fonts/Graphik-Semibold-Trial.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Graphik-Bold';
+  src: url('/fonts/Graphik-Bold-Trial.woff') format('woff');
+  font-style: normal;
+}
+
+.graphikRegular{
+  font-family: 'Graphik-Regular', sans-serif;
+}
+.graphikMedium{
+  font-family: 'Graphik-Medium', sans-serif;
+}
+.graphikSemibold{
+  font-family: 'Graphik-Semibold', sans-serif;
+}
+.graphikBold{
+  font-family: 'Graphik-Bold', sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+}
+
+
+
+
+
+/*  */
+@keyframes featureMotion0 {
+  100%{
+    bottom: 90%;
+    left:5%;
+    transform: translateX(-5%);
+  }
+}
+
+@keyframes featureMotion1 {
+  100%{
+    bottom: 65%;
+    left:18%;
+    transform: translateX(-18%);
+  }
+}
+
+@keyframes featureMotion2 {
+  100%{
+    bottom: 45%;
+    left:0%;
+    transform: translateX(0%);
+  }
+}
+@keyframes featureMotion3 {
+  100%{
+    bottom: 30%;
+    left:18%;
+    transform: translateX(-18%);
+  }
+}
+@keyframes featureMotion4 {
+  100%{
+    bottom: 10%;
+    left:5%;
+    transform: translateX(-5%);
+  }
+}
+@keyframes featureMotion5 {
+  100%{
+    bottom: -10%;
+    left:25%;
+    transform: translateX(-25%);
+  }
+}
+@keyframes featureMotion7 {
+  100%{
+    bottom: -14%;
+    left:65%;
+    transform: translateX(-65%);
+  }
+}
+
+@keyframes featureMotion8 {
+  100%{
+    bottom: 10%;
+    left:80%;
+    transform: translateX(-70%);
+  }
+}
+
+@keyframes featureMotion9 {
+  100%{
+    bottom: 27%;
+    left:100%;
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes featureMotion10 {
+  100%{
+    bottom: 50%;
+    left:85%;
+    transform: translateX(-85%);
+  }
+}
+
+@keyframes featureMotion11 {
+  100%{
+    bottom: 90%;
+    left:90%;
+    transform: translateX(-90%);
+  }
+}
+
+@media(min-width:991px){
+  .feature-0{
+    animation: featureMotion0 3s ease-in-out forwards;
+  }
+  .feature-1{
+    animation: featureMotion1 3s ease-in-out forwards;
+  }
+  .feature-2{
+    animation: featureMotion2 3s ease-in-out forwards;
+  }
+  .feature-3{
+    animation: featureMotion3 3s ease-in-out forwards;
+  }
+  .feature-4{
+    animation: featureMotion4 3s ease-in-out forwards;
+  }
+  .feature-5{
+    animation: featureMotion5 3s ease-in-out forwards;
+  }
+  .feature-7{
+    animation: featureMotion7 3s ease-in-out forwards;
+  }
+  .feature-8{
+    animation: featureMotion8 3s ease-in-out forwards;
+  }
+  .feature-9{
+    animation: featureMotion9 3s ease-in-out forwards;
+  }
+  .feature-10{
+    animation: featureMotion10 3s ease-in-out forwards;
+  }
+  .feature-11{
+    animation: featureMotion11 3s ease-in-out forwards;
+  }
+}
+
+
+/*  */
+.headerMenu:hover,
+.headerMenu.active{
+  background: var(--Gradient, linear-gradient(180deg, #E95B4A 0%, #B164C4 100%));
+}
+
+.slick-list {margin: 0 -1.5rem;}
+.slick-slide>div {padding: 0 1.5rem;}
+
+@media (max-width: 1300px) {
+  html {
+    font-size: 45%; /* 8px = 1rem */
+  }
+}
+
+@media (max-width: 480px) {
+  .slick-list {margin: 0 -.8rem;}
+  .slick-slide>div {padding: 0 .8rem;}
+  html {
+    font-size: 55%; /* 8px = 1rem */
+  }
+}

@@ -1,0 +1,11 @@
+.bannerSection {
+    background-image: url('/backgroundVector.svg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.dotVector{
+    background-image: url('/dotVector.png');
+    background-repeat: repeat; 
+}
